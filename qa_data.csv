@@ -1,0 +1,10 @@
+Renew support to get access to recent releases,Please renew the subscription to get the latest module versions: https://argentotheme.com/knowledgebase/faq/how-to-renew-your-argento-subscription
+Install Argento theme,Please check the installation documentation: https://docs.swissuplabs.com/m2/argento/installation/composer/
+Add child custom Argento theme,Please check the documentation to add the Custom Argento Child theme:&#10;http://docs.swissuplabs.com/m2/argento/customization/custom-theme/
+In case of problems using `bin/magento marketplace:package:require swissup/argento-m2` command,Try pulling theme or module with `composer require`&#10;&#10;Example: `composer require swissup/argento-m2`
+Argento upgrade(old but good method),Try running this command `composer update swissup/argento-m2 --with-all-dependencies`
+
+Updating Argento theme (default method),When Marketplace module is installed you can proceed with update using the following command:&#10;`bin/magento marketplace:package:update swissup/argento-m2`
+
+Error: Required parameter `theme_dir` was not passed,Check this tutorial:&#10;https://docs.swissuplabs.com/m2/argento/troubleshooting/#getting-error-required-parameter-theme_dir-was-not-passed&#10;
+How to remove Argento all designs except one,https://docs.swissuplabs.com/m2/argento/customization/removing-other-themes-except-one/

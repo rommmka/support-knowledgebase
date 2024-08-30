@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Question/Answer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Add New Question/Answer</h1>
+        <form id="addQAForm">
+            <div class="form-group">
+                <label for="question">Question:</label>
+                <input type="text" id="question" name="question" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="answer">Answer:</label>
+                <textarea id="answer" name="answer" required></textarea>
+            </div>
+            
+            <button type="submit">Add Question/Answer</button>
+        </form>
+        <a href="index.html" class="back-link">Back to Knowledge Base</a>
+    </div>
+    <script src="add.js"></script>
+</body>
+</html>
