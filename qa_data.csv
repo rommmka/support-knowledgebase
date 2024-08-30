@@ -8,3 +8,4 @@ Updating Argento theme (default method),When Marketplace module is installed you
 
 Error: Required parameter `theme_dir` was not passed,Check this tutorial:&#10;https://docs.swissuplabs.com/m2/argento/troubleshooting/#getting-error-required-parameter-theme_dir-was-not-passed&#10;
 How to remove Argento all designs except one,https://docs.swissuplabs.com/m2/argento/customization/removing-other-themes-except-one/
+Getting better Pagespeed score,Check the Argento built-in Swissup Pagespeed instructions:&#10;https://docs.swissuplabs.com/m2/extensions/pagespeed/quickstart/
